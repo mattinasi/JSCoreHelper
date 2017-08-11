@@ -7,7 +7,6 @@
 //
 //
 //  Created by Attinasi, Marc on 7/9/14.
-//  Copyright (c) 2014 Intuit, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
