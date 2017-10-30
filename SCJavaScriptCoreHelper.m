@@ -22,7 +22,7 @@
         if(script) {
             JSValueRef jsException = NULL;
             
-            // get the flowJo script and evaluate it, capturing the object returned as our enginePlugin
+            // get the JS script and evaluate it, capturing the object returned as our enginePlugin
             JSStringRef scriptJS = JSStringCreateWithUTF8CString([script cStringUsingEncoding:NSUTF8StringEncoding]);
             JSValueRef result = JSEvaluateScript(self.jsContext, scriptJS, NULL, NULL, 0, &jsException );
             
